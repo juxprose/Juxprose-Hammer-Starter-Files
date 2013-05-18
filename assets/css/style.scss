@@ -1,0 +1,49 @@
+/*==============================================================
+
+Styles
+
+File: SCSS Partial (assets/css/_styles.scss)
+Compiled to: assets/style.css
+Created: 18/05/2013
+Updated: 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Description: Site stylesheet
+Author: Juxprose
+Author URI: http://juxprose.com
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/* Imports
+  -------------------------------------------------------- */
+
+// Normalize
+@import "partials/normalize";
+
+// Sass mixins
+@import "partials/mixins";
+
+// Sass variables
+@import "partials/variables";
+
+// Global styles
+@import "partials/global";
+
+// Layout styles
+@import "partials/layout";
+
+// Modules
+@import "partials/modules";
+
+// Various
+@import "partials/elements";
+
+// Look & Feel
+@import "partials/typography";
+@import "partials/colour";
+
+// Navigation
+@import "partials/navigation";
